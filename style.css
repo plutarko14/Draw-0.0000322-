@@ -1,0 +1,36 @@
+body
+{
+background-color:rgb(256, 220, 96);
+}
+
+h1
+{
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+P{
+    font-size: 25px;
+    font-family:  -apple-system;
+}
+#show_sketch{
+    float: right;
+}
+canvas
+{
+    border:5px solid white;
+     border-radius:20px;
+      margin-top: 50px;
+    /*01:39pm*/
+    animation-name:DrSimi;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes DrSimi {
+  from{
+    box-shadow: 3px 7px 4px yellowgreen;
+  }
+  to{
+    box-shadow: 3px 7px 4px yellow;
+  }
+}
